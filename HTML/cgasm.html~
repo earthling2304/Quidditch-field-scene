@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+Quidditch Field
+</title>
+
+<style>
+body {
+        background-image: url("bakii.jpg");
+        
+}
+ p 
+{
+	margin-left:20px; margin-right:50px; margin-top:20px; margin-bottom:20px; 
+	text-align: left;
+	font-family: Arial,Helvetica,sans-serif;
+}
+h1{
+
+	text-align: center;
+	color:#ffff00;
+	font-family: Arial,Helvetica,sans-serif;
+}	
+
+h2{
+	margin-left:20px; margin-right:50px; margin-top:20px; margin-bottom:20px;
+	text-align: center;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #660066;
+}
+
+h3{
+	margin-left:20px; margin-right:50px; margin-top:20px; margin-bottom:20px;
+	text-align: left;
+	font-family: Arial,Helvetica,sans-serif;
+	color: 191970;
+}
+
+img{
+	margin-left:20px; margin-right:50px; margin-top:20px; margin-bottom:20px;
+	
+}
+ 
+</style>
+
+</head>
+
+
+
+<body>
+<h1>QUIDDITCH FIELD: 3-D  VIEWING
+</h1>
+<h2>Naga Sai Sri. Kamineni, Prakruthi Burra and Vasudha.V</h2>
+<h3>The Scene</h3>
+<p>The scene models Quidditch field as described in the Harry Potter books. The scene is enclosed in a cuboid with 5 faces of blue walls and one face, the bottom surface being the field itself.</p>
+
+<h3>Objects in the scene</h3>
+<p>The scene contains: </p>
+<ul>
+<li>A green Quidditch field</li>
+<li>Stands (for viewing Quidditch)</li>
+<li>Poles with House Flags</li>
+<li>Quidditch Poles with loops (to throw the balls through)</li>
+<li>Trees</li>
+<li>Bats</li>
+<li>Trunk</li>
+<li>Snitch</li>
+<li>Quidditch balls</li>
+</ul>
+<h3>Primitives used</h3>
+<p>
+The OpenGL primitives used were:
+</p>
+<ul>
+	<li> Quadrilaterals (GL_QUADS)</li>
+	<li> Triangles (GL_TRIANGLES)</li>
+	<li> Cylinders (gluCylinder)</li>
+	<li> Cones (glutSolidCone)</li>
+	<li> Light (GL_LIGHTING)</li>
+</ul>
+<h3>Translating the Camera</h3>
+<dl>
+	<dt><b>Panning</b></dt>
+	<dd>
+		To pan the the camera, use:
+		<ul>
+			<li> u (up)</li>
+			<li> d (down)</li>
+			<li> l (left) </li>
+			<li> ; (right) </li>
+		</ul>
+	</dd>
+	
+	<dt><b>Zooming</b></dt>
+	<dd>
+		To zoom the camera, use:
+		<ul>
+			<li> z (zoom in) </li>
+			<li> q (zoom out) </li>
+		</ul>
+	</dd>
+</dl>
+
+<h3>Rotating the Camera</h3>
+<dl>
+	<dt><b>Rolling</b></dt>
+  	<dd>
+		To roll the camera, use:
+		<ul>
+			<li> r (counterclockwise about z) </li>
+			<li> e (clockwise about z) </li>
+		</ul>
+	</dd>
+	<dt><b>Pitching</b></dt>
+	<dd>
+		To pitch the camera, use:
+		<ul>
+			<li> p (counterclockwise about x) </li>
+			<li> o (clockwise about x) </li>
+		</ul>
+	</dd>
+	<dt><b>Yawing</b></dt>
+	<dd>
+		To yaw the camera, use:
+		<ul>
+			<li> y ( counterclockwise about y) </li>
+			<li> t (clockwise about y) </li>
+		</ul>
+	</dd>
+</dl> 
+
+<h3> Output </h3>
+<dl>
+
+<dt><b>
+	 Outside the Scene 
+</b></dt>
+	<dd>
+
+<img src="outside.png", width="1120px", height="650px"> 
+	</dd>
+
+<dt><b>
+	 Entering the scene 
+</b></dt>
+	<dd>
+
+<img src="enter.png", width="1120px", height="650px"> 
+	</dd>
+
+<dt><b>
+ 	Front view 
+</b> </dt>
+	<dd>
+	
+<img src="front.png", width="1120px", height="650px"> 
+	</dd>
+<dt><b>
+	 Side view 
+</b> </dt>
+	<dd>
+	
+<img src="side.png", width="1120px", height="650px"> 
+	</dd>		
+<dt><b>
+ 	Top view 
+</b> </dt>
+	<dd>
+		
+<img src="top.png", width="1120px", height="650px"> 
+	</dd>
+</dl>
